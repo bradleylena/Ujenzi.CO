@@ -7,11 +7,19 @@ html {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
+  scroll-behavior: smooth;
+  padding-top: 100px;
 }
 .navbar {
   display: flex;
   justify-content: space-around;
   backdrop-filter: blur(20px);
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  overflow: hidden;
+  z-index: 1000;
 }
 .navlinks li {
   padding: 10px;
@@ -100,4 +108,94 @@ html {
 }
 .div1 li {
   padding-left: 20px;
+}
+.div2 h3 {
+  text-align: center;
+}
+.div2 p {
+  text-align: center;
+}
+.div2 li {
+  padding-left: 20px;
+}
+.blogh1 {
+  text-align: center;
+  text-decoration: underline;
+  padding: 20px;
+}
+.blog {
+  background-color: white;
+  color: black;
+}
+.blog1 h1 {
+  text-decoration: underline;
+}
+.blog1 {
+  padding-top: 100px;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+  padding-left: 300px;
+  padding-right: 100px;
+  width: 50%;
+  gap: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.form label {
+  text-align: center;
+  font-weight: bold;
+}
+.form input {
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+}
+.form input {
+  height: 30px;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  background-color: black;
+}
+.contact h2 {
+  text-align: center;
+}
+.form textarea {
+  color: white;
+  background-color: black;
+  height: 100px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+.contact h1 {
+  text-align: center;
+}
+.form button {
+  text-align: center;
+  color: white;
+  background-color: black;
+  height: 40px;
+  width: 20%;
+  margin-left: 250px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+}
+.footer h1 {
+  text-align: center;
 }
